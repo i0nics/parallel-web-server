@@ -12,8 +12,8 @@
 
 <h2 id='about'>About The Project</h2>
 <img src='Screenshot.png'>
-<p></p
-  
+<p>This parallel web servers upports concurrent requests from multiple web browsers using threads in Python. Simply put, if your website hosted a single 100GB file, and 1, 10, 100, ... 1000 clients tried to download the same file at the same time, their downloads should all make forward progress. The web server leaves the client connection open after serving a request. The client has the option to send additional HTTP requests over the already-open socket. This reduces the latency of each request, because a new TCP connection does not have to be established. This program also supports graceful shutdown and verbose/silent mode.</p>
+
 <h2 id='start'>Usage</h2>
 
 ```
