@@ -1,0 +1,103 @@
+html,
+body {
+	font-family: 'Montserrat';
+	color: white;
+	background: url(Media/background.png);
+	background-size: cover;
+	margin: 0px;
+	height: 100%;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: 200;
+	margin: 0px;
+	text-align: center;
+	min-width: 700px;
+}
+
+h3,
+header {
+	margin: 0px;
+	font-weight: 200;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	min-width: 700px;
+	background: linear-gradient(#317BB6, #2E79E5);
+}
+
+header {
+	color: white; 
+	font-size: 100px
+}
+
+.center,
+a {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	min-height: 300px
+	/* overflow: scroll; */
+}
+
+.center {
+	width: 100%; 
+	min-height: 600px
+}
+
+#essay {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+#add,
+.button {
+	font-size: 14px;
+	color: #F4D782;
+	padding: 10px;
+	line-height: 15px;  /*To make capsule thinner*/
+	border-radius: 100px;
+	border: solid #F4D782 1px;
+	background: transparent;
+	margin: 20px;
+}
+
+.button:hover {
+	background: #F4D782;
+	color: black
+}
+
+#add:hover {
+	background: #F4D782;
+	color: black
+}
+
+#num_heads, #num_tails {
+	color: #F4D782
+}
+
+#flipButton,
+#add {
+	font-size: 20px;
+	margin: 40px;
+}
+
+fieldset {
+	height: 70%; 
+	width: 50%; 
+	border: double #F4D782 10px;
+}
+
+textarea {
+	height: 50%; 
+	background: black;
+	color: #EFCC90;
+	border: inset white 3px;
+}

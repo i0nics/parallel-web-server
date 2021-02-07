@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sample Website</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="icon" href="https://w7.pngwing.com/pngs/980/413/png-transparent-apple-logo-business-iphone-apple-heart-computer-logo.png">
+	<link href="styles.css" rel="stylesheet">
+	<script src="index.js" defer></script>
+</head>
+<body>
+	<header style="color: white; font-size:100px">Coin Flip</header>
+	<div class="center" style="height: 75%">
+		<img id="coinImg" src="Media/coin1.png" alt="coin image" height=400px width=400px>
+		<input class="button" id="flipButton" type="button" value="Flip Coin">	
+	</div>
+	<div style="display: flex; text-align: center">
+		<p style="border-right: solid 1px white; width: 50%; text-align: center">
+			Number of Heads:&nbsp;
+			<span id="num_heads"></span>
+		</p>
+		<p style="width: 50%; text-align: center">Number of Tails:&nbsp;
+			<span id="num_tails"></span>
+		</p>
+	</div>
+	<div style="position: relative">
+		<p style="position: fixed; bottom: 1px; width:100%; margin: 0; color: darkgrey; font-size: 12px">
+			Copyright &copy; 2020 Bikram Chatterjee. All rights reserved.
+		</p>
+	</div>
+</body>
+</html>
