@@ -17,7 +17,7 @@
 
 <h2 id='benchmark'>Siege Benchmark Results</h2>
 <img src='Benchmark.png'>
-<p> The above table shows the number of pages served by the web server per second as the number of concurrent clients varies from 1 to infinity, or at least until the web server begins to suffer under heavy load</p>
+<p> The above table shows the number of pages served by the web server per second as the number of concurrent clients varies from 1 to 256.</p>
 
 <h2 id='start'>Usage</h2>
 
