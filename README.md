@@ -18,7 +18,7 @@
 
 <h2 id='benchmark'>Siege Benchmark Results</h2>
 <img src='Benchmark.png'>
-<p> This program was benchmarked using Siege which is a multi-threaded http load testing and benchmarking utility. Siege was designed to let web developers measure the performance of their code under duress. The above table shows various performance statistics obtained from multiple 60 second tests as the number of concurrent clients which increases from 1 (light workload) to 256 (heavy workload).</p>
+<p> This program was benchmarked using Siege which is a multi-threaded http load testing and benchmarking utility. Siege was designed to let web developers measure the performance of their code under duress. The above table shows various performance statistics obtained from multiple 60 second tests as the number of concurrent clients increases from 1 (light workload) to 256 (heavy workload).</p>
 <h2 id='start'>Usage</h2>
 
 ```
