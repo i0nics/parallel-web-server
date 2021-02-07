@@ -10,6 +10,7 @@
 - [Siege Benchmark Results](#benchmark)
 - [Usage](#start)
 - [License](#license)
+- [Acknowledgements](#ack)
 
 <h2 id='about'>About The Project</h2>
 <img src='Screenshot.png'>
@@ -18,7 +19,6 @@
 <h2 id='benchmark'>Siege Benchmark Results</h2>
 <img src='Benchmark.png'>
 <p> The above table shows the number of pages served by the web server per second as the number of concurrent clients varies from 1 to 256.</p>
-
 <h2 id='start'>Usage</h2>
 
 ```
@@ -38,7 +38,7 @@ optional arguments:
 <h2 id='license'>License</h2>
 <p>Distributed under the MIT License.</p>
 
-<h2 id='license'>Acknowledgements</h2>
+<h2 id='ack'>Acknowledgements</h2>
 
 * [Apple Inc.](http://apple.com)
 * [Siege](https://www.joedog.org/siege-home/)
