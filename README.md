@@ -8,7 +8,7 @@
 
 - [About The Project](#about)
 - [Siege Benchmark Results](#benchmark)
-- [Usage](#start)
+- [Usage](#usage)
 - [License](#license)
 - [Acknowledgements](#ack)
 
@@ -19,7 +19,7 @@
 <h2 id='benchmark'>Siege Benchmark Results</h2>
 <img src='Benchmark.png'>
 <p> This program was benchmarked using Siege which is a multi-threaded http load testing and benchmarking utility. Siege was designed to let web developers measure the performance of their code under duress. The above table shows various performance statistics obtained from multiple 60 second tests as the number of concurrent clients increases from 1 (light workload) to 256 (heavy workload).</p>
-<h2 id='start'>Usage</h2>
+<h2 id='usage'>Usage</h2>
 
 ```
 Usage: server.py [-h] [--version] [--base BASE_DIR] [--port PORT] [--recv RECV] [--verbose]
