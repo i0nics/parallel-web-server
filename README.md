@@ -14,11 +14,11 @@
 
 <h2 id='about'>About The Project</h2>
 <img src='Screenshot.png'>
-<p>This parallel web server program supports concurrent HTTP requests from multiple web browsers using threads in Python. Simply put, if a website hosted a single 100GB file, and 1, 10, ... 100 clients tried to download the same file at the same time, their downloads should all make forward progress. The web server leaves the client connection open after serving a request. Additionally, the client has the option to send additional HTTP requests over the already-open socket. This reduces the latency of each request, because a new TCP connection does not have to be established. This program also supports graceful shutdown and verbose/silent mode.</p>
+<p>This parallel web server program supports concurrent HTTP requests from multiple web browsers using threads in Python. Simply put, if a website hosted a single 100GB file, and 1, 10, ... 200 clients tried to download the same file at the same time, their downloads should all make forward progress. The web server leaves the client connection open after serving a request. Additionally, the client has the option to send additional HTTP requests over the already-open socket. This reduces the latency of each request, because a new TCP connection does not have to be established. This program also supports graceful shutdown and verbose/silent mode.</p>
 
 <h2 id='benchmark'>Siege Benchmark Results</h2>
 <img src='Benchmark.png'>
-<p> The above table shows the number of pages served by the web server per second as the number of concurrent clients varies from 1 to 256.</p>
+<p> This program was benchmarked using Siege which is a multi-threaded http load testing and benchmarking utility. Siege was designed to let web developers measure the performance of their code under duress. The above table shows various performance statistics obtained from multiple 60 second tests as the number of concurrent clients which increases from 1 (light workload) to 256 (heavy workload).</p>
 <h2 id='start'>Usage</h2>
 
 ```
@@ -40,7 +40,6 @@ optional arguments:
 
 <h2 id='ack'>Acknowledgements</h2>
 
-* [Apple Inc.](http://apple.com)
 * [Siege](https://www.joedog.org/siege-home/)
 
 
