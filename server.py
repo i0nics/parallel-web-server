@@ -71,7 +71,7 @@ class Thread(threading.Thread):
                             'Date': datetime.datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT'),
                             'Expires': (datetime.datetime.utcnow() + datetime.timedelta(hours=12)).strftime('%a, %d %b %Y %H:%M:%S GMT'),
                             'Last-Modified': datetime.datetime.fromtimestamp(os.path.getmtime(args.base + path)).strftime('%a, %d %b %Y %H:%M:%S GMT'),
-                            'Server': 'COMP 177 Python Multi-Thread\r\n'
+                            'Server': 'Python Multi-Threaded Server\r\n'
                         }
 
                         # Convert response headers to bytes
