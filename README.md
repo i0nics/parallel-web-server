@@ -2,7 +2,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <br>
 
-<h1 align='center'> Parallel Web Server Python </h1>
+<h1 align='center'> Parallel Web Server</h1>
 <p align='center'>Web server that supports concurrent downloads and persistent connections</p>
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 
